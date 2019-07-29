@@ -19,6 +19,13 @@ h1 {
 
 }
 
+#shoppingcart {
+	color:  black;
+	display:  inline-block;
+	float:  right;
+
+}
+
 nav {
 	background-color: black;
 }

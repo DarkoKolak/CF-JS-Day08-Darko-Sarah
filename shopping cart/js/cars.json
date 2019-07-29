@@ -1,0 +1,46 @@
+cars = [{
+	"name": "Jaguar Roadster XK",
+	"productionYear": "1956",
+	"image": "img/jaguar.jpg",
+	"price": 50
+}, {
+	"name": "Tesla Roadster",
+	"productionYear": "2020",
+	"image": "img/tesla.jpg",
+	"price": 60
+}, {
+	"name": "Corvette C1",
+	"productionYear": "1955",
+	"image": "img/corvette.jpg",
+	"price": 70
+}, {
+	"name": "Rolls Royce Silver Dawn",
+	"productionYear": "1954",
+	"image": "img/royce.jpg",
+	"price": 89
+}, {
+	"name": "VW Beetle",
+	"productionYear": "1938",
+	"image": "img/vw.jpg",
+	"price": 81
+}, {
+	"name": "DeLorean DMC-12",
+	"productionYear": "1981",
+	"image": "img/delorean.jpg",
+	"price": 73
+}, {
+	"name": "Audi E-Tron GT",
+	"productionYear": "2020",
+	"image": "img/audi.jpg",
+	"price": 90
+}, {
+	"name": "Ford Shelby GT",
+	"productionYear": "1967",
+	"image": "img/ford.jpg",
+	"price": 74
+}, {
+	"name": "Millennium Falcon",
+	"productionYear": "1977",
+	"image": "img/falcon.jpg",
+	"price": 109
+}]
