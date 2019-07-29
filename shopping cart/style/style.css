@@ -22,6 +22,9 @@ h1 {
 #result {
 	display: none;
 }
+#carsum{
+	display: none;
+}
 
 #shoppingcart {
 	color:  black;
