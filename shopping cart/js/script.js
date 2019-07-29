@@ -18,12 +18,18 @@ var allbtn = document.getElementsByClassName("tocart");
 	allbtn[i].addEventListener("click", function(){add(this.getAttribute("id"))},false);
 }
 
-
+var sum = 0;
+var count = 1;
+ var a = document.getElementById("amount");
 
 function add(i){
 
 
- document.getElementById("result").innerHTML += `<p> ${cars[i].name} </p>` ;
+ document.getElementById("result").innerHTML += `<p> ${cars[i].name} </p>`;
+ sum += cars[i].price;
+ document.getElementById("carsum").innerHTML = sum;
+ a.innerHTML = count++;
+
 
 }
 
@@ -36,11 +42,11 @@ function viewcart(){
 	if (result.style.display === "none") {
 
 		result.style.display = "block";
-		buttonright.innerHTML = "Hide Cart";
+		buttonright.innerHTML = "Hide Cart" + "<br>" + a.innerHTML;
 	}
 
 	else{
 		result.style.display = "none";
-		buttonright.innerHTML = "View Cart";
+		buttonright.innerHTML = "View Cart" + "<br>" + a.innerHTML;
 	}
 }
