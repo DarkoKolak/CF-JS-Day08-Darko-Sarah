@@ -1,0 +1,27 @@
+#outerbox {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.innerboxes {
+background-color: lightgray;
+padding:  20px;
+margin: 20px;
+text-align: center;
+font-size: 30px;
+}
+
+h1 {
+	background-color: #9A2317;
+	color: white;
+
+}
+
+nav {
+	background-color: black;
+}
+
+a {
+	color: white;
